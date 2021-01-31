@@ -1,0 +1,67 @@
+.mainStickyNote {
+    height: 250px;
+    width: 250px;
+    position: relative;
+}
+
+.tape {
+    height: 25px;
+    width: 40%;
+    background: rgba(227, 200, 114, 0.4);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    top: -15px;
+    margin-left: 30%;
+    position: absolute;
+    z-index: 100;
+}
+.stickyNote{
+    height: 98%;
+    border: 2px solid #fff;
+    color: black;
+    overflow: auto;
+    position: relative;
+}
+
+.row1 {
+    padding: 6px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.addicon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.titleText {
+    width: 85%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+
+.crossicon {
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.row2 {
+    font-size: 15px;
+    min-height: 150px;
+    padding: 6px;
+}
+
+.row3 {
+    position: absolute;
+    bottom: 0%;
+    font-size: 10px;
+}
+
+.footerText {
+    padding: 2px;
+}

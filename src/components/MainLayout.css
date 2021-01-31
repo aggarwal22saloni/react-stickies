@@ -1,0 +1,28 @@
+.mainDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heading {
+    font-size: 16px;
+    display: table;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 20px auto;
+}
+
+.radioButtonMain {
+    font-size: 14px;
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.notesList{
+    position: relative;
+    padding-bottom: 290px;
+    display: grid;
+    grid-gap: 5% 2%;
+    grid-template-columns: 22% 22% 22% 22%;
+}
